@@ -10,8 +10,8 @@ public class About extends JFrame {
 	public About()
 	{
 		super();
-		info = new JLabel("В path прописывайте диск для windows в форме: C:\\\\, для linux С://");
-		info1 = new JLabel("В name просто название файла БЕЗ расширения");
+		info = new JLabel("Г‚ path ГЇГ°Г®ГЇГЁГ±Г»ГўГ Г©ГІГҐ Г¤ГЁГ±ГЄ Г¤Г«Гї windows Гў ГґГ®Г°Г¬ГҐ: C:\\\\, Г¤Г«Гї linux Г‘://");
+		info1 = new JLabel("Г‚ name ГЇГ°Г®Г±ГІГ® Г­Г Г§ГўГ Г­ГЁГҐ ГґГ Г©Г«Г  ГЃГ…Г‡ Г°Г Г±ГёГЁГ°ГҐГ­ГЁГї");
 		panel = new JPanel();
 		panel.add(info,BorderLayout.CENTER);
 		panel.add(info1);
